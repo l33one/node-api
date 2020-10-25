@@ -1,0 +1,26 @@
+# Configuração do ambiente
+
+# Instalação do pacote para gerenciar as rotas da API no nodejs
+$ npm install express
+
+# Pacote para reiniciar o servidor quando realizar alterações, usa somente no ambiente de desenvolvimento
+$ npm install -D nodemon 
+$ npm run dev
+
+# Iniciar docker do banco de dados
+$ docker run --name mongodb -p 27017:27017 -d mongo
+
+# Uso o robo3t para visualizar os dados salvos no mondodb
+$ sudo snap install robo3t-snap
+
+# Instalação do ORM usado
+$ npm install mongoose
+
+# Instalação de pacote para importar todos os componentes de uma pasta
+$ npm require-dir
+
+# Instalação mongoose-paginate para paginação das respostas do banco de dados
+$ npm install mongoose-paginate
+
+# Permitir acessos de outros domínios
+$ npm install cors
