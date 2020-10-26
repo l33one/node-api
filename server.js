@@ -1,4 +1,5 @@
 const express = require('express'); //Importa biblioteca express que ajuda o node com rotas e view
+const cors = require('cors');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 
